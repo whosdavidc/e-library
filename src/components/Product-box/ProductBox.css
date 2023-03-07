@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Playfair+Display&family=Roboto&family=Ubuntu:wght@300;400&display=swap');
+
+.ProductBox{
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.productImage {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.productTitle{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;        
+}
+
+.productOrigin{
+    font-size: larger;
+}
+
+.productPrice{
+    font-size: x-large;
+    margin-top: 0;
+}

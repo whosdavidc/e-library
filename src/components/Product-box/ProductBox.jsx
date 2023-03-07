@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "./ProductBox.css";
 
-const ProductBox = (image, title, price) => {
+const ProductBox = (props) => {
   return (
-    <div>
-      <img src={image}></img>
-      <h2>{title}</h2>
-      <p>{price}</p>
+    <div className='ProductBox'>
+      <img className='productImage' src={props.image}></img>
+      <h2 className="productTitle">{props.title}</h2>
+      <p className="productOrigin">{props.origin}</p>
+      <p className="productPrice">{props.price}</p>
     </div>
   )
 }
